@@ -107,7 +107,6 @@ const compareCards = (card) => {
                         matched(card);
                         clickCounter = 0;
                     }, 2000);
-//                    console.log("match", clickCounter);
                     
                 } else {
                     // no match - reset click counter & remove selected style
@@ -116,13 +115,11 @@ const compareCards = (card) => {
                         noMatch(selected);
                         clickCounter = 0;
                     },2000);
-//                    console.log("no match - reset", clickCounter);
                 }
             } 
         }
     } else {        
         clickCounter = 0;
-//        console.log("da reset");
     }                    
 }
 
